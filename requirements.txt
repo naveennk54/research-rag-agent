@@ -4,7 +4,7 @@ langchain-community
 langchain-openai
 langchain-pinecone
 langchain-huggingface
-pinecone-client
+pinecone>=6.0.0
 pypdf
 python-dotenv
 sentence-transformers
