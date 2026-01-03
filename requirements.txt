@@ -1,9 +1,10 @@
 streamlit
-langchain
+langchain>=1.0.0
 langchain-community
 langchain-openai
 langchain-pinecone
 langchain-huggingface
+langchain-classic
 pinecone>=6.0.0
 pypdf
 python-dotenv
