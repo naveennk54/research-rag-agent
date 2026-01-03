@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 from langchain_openai import ChatOpenAI
 from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_pinecone import PineconeVectorStore
-from langchain.chains import RetrievalQA
+from langchain_classic.chains import RetrievalQA
 
 # Page Configuration
 st.set_page_config(page_title="BioGen Research Assistant", layout="wide")
